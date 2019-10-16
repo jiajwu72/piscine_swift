@@ -18,25 +18,14 @@ class AddPersonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //date.datePickerMode = UIDatePicker.Mode.date
+        let currenDate = NSDate()
+        //let calendar = Calendar.current
+        //let minDateComponent = calendar.dateComponents([.day,.month,.year], from: Date()).date
+        date.minimumDate = currenDate as Date
         // Do any additional setup after loading the view.
     }
-    /*
-    @IBAction func addHim(_ sender: Any) {
-        //Datas.deaths.append(Death())
-        //if let name
-        if let a : String = name.text, !name.text!.isEmpty {
-            let formatter = DateFormatter()
-            formatter.locale = Locale(identifier : "FR-fr")
-            formatter.dateFormat = "dd MMMM yyyy HH:mm:ss"
-            
-            let b : String = formatter.string(from: date.date)
-            let c : String = desc.text
-            Datas.deaths.append(Death(name : a,desc: c, date :b))
-        }
-        print("add him")
-        performSegue(withIdentifier: "unwindToFirstVC", sender: self)
-    }
-    */
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var _ : ViewController = segue.destination as! ViewController
         //Datas.deaths.append(Death(name : "zz",desc: "go die", date : "05 mars 2019 07:07:07"))
