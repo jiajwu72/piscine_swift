@@ -14,6 +14,9 @@
 		9B2180C823575352007D0E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2180C623575352007D0E7D /* LaunchScreen.storyboard */; };
 		9B2180D323575352007D0E7D /* J04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2180D223575352007D0E7D /* J04Tests.swift */; };
 		9B2180DE23575352007D0E7D /* J04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2180DD23575352007D0E7D /* J04UITests.swift */; };
+		F2FDB4A22357902200DC1562 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB4A12357902200DC1562 /* Tweet.swift */; };
+		F2FDB4A42357921B00DC1562 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB4A32357921B00DC1562 /* APIController.swift */; };
+		F2FDB4A623579A0000DC1562 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB4A523579A0000DC1562 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9B2180D923575352007D0E7D /* J04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = J04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2180DD23575352007D0E7D /* J04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J04UITests.swift; sourceTree = "<group>"; };
 		9B2180DF23575352007D0E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FDB4A12357902200DC1562 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		F2FDB4A32357921B00DC1562 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		F2FDB4A523579A0000DC1562 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		9B2180BC2357534D007D0E7D /* J04 */ = {
 			isa = PBXGroup;
 			children = (
-				9B2180BD2357534D007D0E7D /* AppDelegate.swift */,
 				9B2180BF2357534D007D0E7D /* ViewController.swift */,
+				F2FDB4A523579A0000DC1562 /* TweetCell.swift */,
+				F2FDB4A12357902200DC1562 /* Tweet.swift */,
+				F2FDB4A32357921B00DC1562 /* APIController.swift */,
 				9B2180C12357534D007D0E7D /* Main.storyboard */,
+				9B2180BD2357534D007D0E7D /* AppDelegate.swift */,
 				9B2180C423575352007D0E7D /* Assets.xcassets */,
 				9B2180C623575352007D0E7D /* LaunchScreen.storyboard */,
 				9B2180C923575352007D0E7D /* Info.plist */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2180C02357534D007D0E7D /* ViewController.swift in Sources */,
+				F2FDB4A22357902200DC1562 /* Tweet.swift in Sources */,
+				F2FDB4A623579A0000DC1562 /* TweetCell.swift in Sources */,
+				F2FDB4A42357921B00DC1562 /* APIController.swift in Sources */,
 				9B2180BE2357534D007D0E7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
