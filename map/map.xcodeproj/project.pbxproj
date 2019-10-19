@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9BD88FD52359F45A00D2DAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88FD42359F45A00D2DAE5 /* AppDelegate.swift */; };
-		9BD88FD72359F45A00D2DAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88FD62359F45A00D2DAE5 /* ViewController.swift */; };
+		9BD88FD72359F45A00D2DAE5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88FD62359F45A00D2DAE5 /* TableViewController.swift */; };
 		9BD88FDA2359F45A00D2DAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD88FD82359F45A00D2DAE5 /* Main.storyboard */; };
 		9BD88FDC2359F45B00D2DAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD88FDB2359F45B00D2DAE5 /* Assets.xcassets */; };
 		9BD88FDF2359F45B00D2DAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD88FDD2359F45B00D2DAE5 /* LaunchScreen.storyboard */; };
 		9BD88FE72359F53A00D2DAE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */; };
+		F28B5949235A21C500A7944D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B5948235A21C500A7944D /* TableViewCell.swift */; };
+		F28B594B235A244100A7944D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B594A235A244100A7944D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BD88FD12359F45A00D2DAE5 /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD88FD42359F45A00D2DAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BD88FD62359F45A00D2DAE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BD88FD62359F45A00D2DAE5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9BD88FD92359F45A00D2DAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BD88FDB2359F45B00D2DAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD88FDE2359F45B00D2DAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD88FE02359F45B00D2DAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F28B5948235A21C500A7944D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F28B594A235A244100A7944D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */,
-				9BD88FD62359F45A00D2DAE5 /* ViewController.swift */,
+				9BD88FD62359F45A00D2DAE5 /* TableViewController.swift */,
+				F28B5948235A21C500A7944D /* TableViewCell.swift */,
+				F28B594A235A244100A7944D /* Model.swift */,
 				9BD88FD42359F45A00D2DAE5 /* AppDelegate.swift */,
 				9BD88FD82359F45A00D2DAE5 /* Main.storyboard */,
 				9BD88FDB2359F45B00D2DAE5 /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD88FD72359F45A00D2DAE5 /* ViewController.swift in Sources */,
+				F28B594B235A244100A7944D /* Model.swift in Sources */,
+				9BD88FD72359F45A00D2DAE5 /* TableViewController.swift in Sources */,
+				F28B5949235A21C500A7944D /* TableViewCell.swift in Sources */,
 				9BD88FE72359F53A00D2DAE5 /* MapViewController.swift in Sources */,
 				9BD88FD52359F45A00D2DAE5 /* AppDelegate.swift in Sources */,
 			);
