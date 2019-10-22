@@ -1,0 +1,6 @@
+framework module Pods_exo {
+  umbrella header "Pods-exo-umbrella.h"
+
+  export *
+  module * { export * }
+}
