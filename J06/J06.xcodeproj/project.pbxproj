@@ -12,6 +12,7 @@
 		9BECB5FB235CC47400CA543A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BECB5F9235CC47400CA543A /* Main.storyboard */; };
 		9BECB5FD235CC47500CA543A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BECB5FC235CC47500CA543A /* Assets.xcassets */; };
 		9BECB600235CC47500CA543A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BECB5FE235CC47500CA543A /* LaunchScreen.storyboard */; };
+		F2CE1973235CC7D300BD87E7 /* Forme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE1972235CC7D300BD87E7 /* Forme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BECB5FC235CC47500CA543A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BECB5FF235CC47500CA543A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BECB601235CC47500CA543A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CE1972235CC7D300BD87E7 /* Forme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		9BECB5F4235CC47400CA543A /* J06 */ = {
 			isa = PBXGroup;
 			children = (
-				9BECB5F5235CC47400CA543A /* AppDelegate.swift */,
 				9BECB5F7235CC47400CA543A /* ViewController.swift */,
+				F2CE1972235CC7D300BD87E7 /* Forme.swift */,
+				9BECB5F5235CC47400CA543A /* AppDelegate.swift */,
 				9BECB5F9235CC47400CA543A /* Main.storyboard */,
 				9BECB5FC235CC47500CA543A /* Assets.xcassets */,
 				9BECB5FE235CC47500CA543A /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CE1973235CC7D300BD87E7 /* Forme.swift in Sources */,
 				9BECB5F8235CC47400CA543A /* ViewController.swift in Sources */,
 				9BECB5F6235CC47400CA543A /* AppDelegate.swift in Sources */,
 			);
