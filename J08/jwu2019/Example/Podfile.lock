@@ -1,0 +1,16 @@
+PODS:
+  - jwu2019 (0.1.0)
+
+DEPENDENCIES:
+  - jwu2019 (from `../`)
+
+EXTERNAL SOURCES:
+  jwu2019:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jwu2019: 4d45706aeff2ba72109cb326f85a951abd14541e
+
+PODFILE CHECKSUM: c8e8164486f67b1ca1c00afe23cd1e8a9d92f287
+
+COCOAPODS: 1.8.4
