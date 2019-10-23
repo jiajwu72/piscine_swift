@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-public class Articlee: NSManagedObject
+public class Articleee: NSManagedObject
 {
     @NSManaged public var title: String?
     @NSManaged public var content: String?
@@ -23,7 +23,7 @@ public class Articlee: NSManagedObject
     }
 }
 
-extension Articlee {
+extension Articleee {
     
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Article> {
         return NSFetchRequest<Article>(entityName: "Article")
