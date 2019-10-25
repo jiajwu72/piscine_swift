@@ -19,7 +19,7 @@
 		F238F080832C5684E627D3D49325799F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52A6C3B1B94B8C68F11070716C2E0A7 /* Foundation.framework */; };
 		F239AA9E23608E5200182735 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F239AA9C23608E5200182735 /* article.xcdatamodeld */; };
 		F239AAA023608F5F00182735 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239AA9F23608F5F00182735 /* ArticleManager.swift */; };
-		F239AAA22360906900182735 /* Articlee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239AAA12360906900182735 /* Articlee+CoreDataClass.swift */; };
+		F239AAA22360906900182735 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239AAA12360906900182735 /* Article+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		F10AD34D41CA53F919C5B83824D011BD /* jwu2019-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jwu2019-dummy.m"; sourceTree = "<group>"; };
 		F239AA9D23608E5200182735 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
 		F239AA9F23608F5F00182735 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
-		F239AAA12360906900182735 /* Articlee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Articlee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F239AAA12360906900182735 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F46D2FD0117107E753F18996FD34CC40 /* jwu2019-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jwu2019-prefix.pch"; sourceTree = "<group>"; };
 		F74CE0A4C7FDBA7A7EF97679B8D65315 /* Pods-jwu2019_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jwu2019_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,7 +170,7 @@
 				01CC320D24F5BBC4763752B79D421AA6 /* Pod */,
 				35CCC1AF26EB56C731167AA1B6FE2B33 /* Support Files */,
 				F239AA9F23608F5F00182735 /* ArticleManager.swift */,
-				F239AAA12360906900182735 /* Articlee+CoreDataClass.swift */,
+				F239AAA12360906900182735 /* Article+CoreDataClass.swift */,
 			);
 			name = jwu2019;
 			path = ../..;
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F239AAA22360906900182735 /* Articlee+CoreDataClass.swift in Sources */,
+				F239AAA22360906900182735 /* Article+CoreDataClass.swift in Sources */,
 				5DED688709FC4F771416A6FCD27809FB /* jwu2019-dummy.m in Sources */,
 				F239AAA023608F5F00182735 /* ArticleManager.swift in Sources */,
 				F239AA9E23608E5200182735 /* article.xcdatamodeld in Sources */,

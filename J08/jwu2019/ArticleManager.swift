@@ -37,17 +37,17 @@ public class ArticleManager
         }
     }
 
-    public func newArticle() -> Articlee
+    public func newArticle() -> Article
     {
-        print("new Article")
+        //print("new Article")
         //return nil!
-        return NSEntityDescription.insertNewObject(forEntityName: "Article", into: self.managedObjectContext) as! Articlee
+        return NSEntityDescription.insertNewObject(forEntityName: "Article", into: self.managedObjectContext) as! Article
     }
     
-    public func getAllArticles() -> [Articlee]
+    public func getAllArticles() -> [Article]
     {
-        var allArticles: [Articlee] = []
-        let request = NSFetchRequest<Articlee>(entityName: "Article")
+        var allArticles: [Article] = []
+        let request = NSFetchRequest<Article>(entityName: "Article")
         do
         {
             allArticles = try managedObjectContext.fetch(request)
@@ -56,10 +56,10 @@ public class ArticleManager
         return allArticles
     }
     
-    public func getArticles(withLang lang : String) -> [Articlee]
+    public func getArticles(withLang lang : String) -> [Article]
     {
         let allArticles = self.getAllArticles()
-        var allArticlesWithLang: [Articlee] = []
+        var allArticlesWithLang: [Article] = []
         for art in allArticles
         {
             if let artLang = art.langue
@@ -73,10 +73,10 @@ public class ArticleManager
         return allArticlesWithLang
     }
     
-    public func getArticles(containString str : String) -> [Articlee]
+    public func getArticles(containString str : String) -> [Article]
     {
         let allArticles = self.getAllArticles()
-        var allArticlesWithStr: [Articlee] = []
+        var allArticlesWithStr: [Article] = []
         for art in allArticles
         {
             if let artContent = art.content
@@ -99,7 +99,7 @@ public class ArticleManager
         return allArticlesWithStr
     }
     
-    public func removeArticle(article : Articlee)
+    public func removeArticle(article : Article)
     {
         self.managedObjectContext.delete(article)
     }
