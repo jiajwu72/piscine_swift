@@ -1,0 +1,6 @@
+framework module Pods_jwu2019_Tests {
+  umbrella header "Pods-jwu2019_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
