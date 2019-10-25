@@ -1,0 +1,11 @@
+framework module jwu2019 {
+  umbrella header "jwu2019-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module jwu2019.Swift {
+    header "jwu2019-Swift.h"
+    requires objc
+}

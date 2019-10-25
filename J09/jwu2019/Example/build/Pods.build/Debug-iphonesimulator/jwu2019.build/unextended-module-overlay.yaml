@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/jiajunwu/Desktop/jiajwu72_ios/J08/jwu2019/Example/build/Debug-iphonesimulator/jwu2019/jwu2019.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/jiajunwu/Desktop/jiajwu72_ios/J08/jwu2019/Example/build/Pods.build/Debug-iphonesimulator/jwu2019.build/unextended-module.modulemap",
+    }]
+  }]
+}
