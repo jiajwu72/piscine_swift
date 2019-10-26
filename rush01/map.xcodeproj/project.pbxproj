@@ -13,6 +13,8 @@
 		9BD88FDF2359F45B00D2DAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD88FDD2359F45B00D2DAE5 /* LaunchScreen.storyboard */; };
 		9BD88FE72359F53A00D2DAE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */; };
 		EF43097B4030C1C4A0935FAC /* Pods_map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A1D9E5B7DBA94581FC3FF2 /* Pods_map.framework */; };
+		F274030A23648B0E00B21684 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274030923648B0E00B21684 /* SearchViewController.swift */; };
+		F274030C236492AA00B21684 /* SecondSearchTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274030B236492AA00B21684 /* SecondSearchTableController.swift */; };
 		F2C8F9E9236359BC00C584E9 /* SearchTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8F9E8236359BB00C584E9 /* SearchTableController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		9BD88FDE2359F45B00D2DAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD88FE02359F45B00D2DAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F274030923648B0E00B21684 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F274030B236492AA00B21684 /* SecondSearchTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSearchTableController.swift; sourceTree = "<group>"; };
 		F2C8F9E8236359BB00C584E9 /* SearchTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +86,8 @@
 			children = (
 				9BD88FE62359F53A00D2DAE5 /* MapViewController.swift */,
 				F2C8F9E8236359BB00C584E9 /* SearchTableController.swift */,
+				F274030923648B0E00B21684 /* SearchViewController.swift */,
+				F274030B236492AA00B21684 /* SecondSearchTableController.swift */,
 				9BD88FD42359F45A00D2DAE5 /* AppDelegate.swift */,
 				9BD88FD82359F45A00D2DAE5 /* Main.storyboard */,
 				9BD88FDB2359F45B00D2DAE5 /* Assets.xcassets */,
@@ -208,6 +214,8 @@
 			files = (
 				F2C8F9E9236359BC00C584E9 /* SearchTableController.swift in Sources */,
 				9BD88FE72359F53A00D2DAE5 /* MapViewController.swift in Sources */,
+				F274030A23648B0E00B21684 /* SearchViewController.swift in Sources */,
+				F274030C236492AA00B21684 /* SecondSearchTableController.swift in Sources */,
 				9BD88FD52359F45A00D2DAE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

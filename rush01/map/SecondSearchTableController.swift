@@ -10,27 +10,23 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
-protocol LocateOnTheMap {
-    func locateWithCoord(long:Double,lat:Double,text:String)
-    func drawItinerary(dest:CLLocationCoordinate2D)
-    func resetMap()
-    //var currentPosition:CLLocationCoordinate2D {get}
+protocol SetMarker {
+    func setFirstMarker(lat:Double,long:Double,desc:String)
+    func setSecondMarker(lat:Double,long:Double,desc:String)
 }
 
-class SearchTableController: UITableViewController {
+class SecondSearchTableController: UITableViewController {
 
-    var delegate:LocateOnTheMap!
+    var delegate:SetMarker!
     var res:[String]!
+    static var isFirst:Bool=true
+    static var text:String!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         res=Array()
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellIdentifier")
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
@@ -54,26 +50,29 @@ class SearchTableController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //self.dismiss(animated: true, completion: nil)
-        self.delegate.resetMap()
+        //self.delegate.resetMap()
         var key="AIzaSyBk6MEYcqHK1wxkabul8zeTb8ykuPq_1nE"
         let url=URL(string: "https://maps.googleapis.com/maps/api/geocode/json?address=\(res[indexPath.row])&key=\(key)&sensor=false".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)
         //print(url?.absoluteString)
         
         let urlRequest=URLRequest(url: url!)
         let task=URLSession.shared.dataTask(with: urlRequest){ data,response,error in
-            //print("task")
             do{
-                //print("in draw")
                 if data != nil {
                     let dic = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableLeaves) as! NSDictionary
+                    print(dic.description)
                     let lat = ((((dic.value(forKey: "results") as! NSArray).object(at: 0) as! NSDictionary).value(forKey: "geometry") as! NSDictionary).object(forKey: "location") as! NSDictionary).value(forKey: "lat") as! Double
                     let long = ((((dic.value(forKey: "results") as! NSArray).object(at: 0) as! NSDictionary).value(forKey: "geometry") as! NSDictionary).object(forKey: "location") as! NSDictionary).value(forKey: "lng") as! Double
-                        // 4
-                    self.delegate.locateWithCoord(long:long, lat: lat, text: self.res[indexPath.row])
-                    //print(self.delega)
-                    //self.delegate.drawItinerary(dest: CLLocationCoordinate2D(latitude: lat, longitude: long))
-                    print("finishDraw")
-                    //print(dic.description)
+                    let desc=((dic.value(forKey: "results") as! NSArray).object(at: 0) as! NSDictionary).value(forKey: "formatted_address") as! String
+                    
+                    print("bing")
+                    
+                    if SecondSearchTableController.isFirst{
+                        self.delegate.setFirstMarker(lat: lat, long: long, desc:desc)
+                    }else{
+                        self.delegate.setSecondMarker(lat: lat, long: long, desc:desc)
+                    }
+                    //SecondSearchTableController.text
                 }
             }catch{
                 print(error.localizedDescription)
@@ -81,7 +80,7 @@ class SearchTableController: UITableViewController {
         }
         task.resume()
         self.dismiss(animated: true, completion: nil)
-        print("finish tap")
+        //print("finish tap")
     }
 
     func reloadSearchData(array:[String]){

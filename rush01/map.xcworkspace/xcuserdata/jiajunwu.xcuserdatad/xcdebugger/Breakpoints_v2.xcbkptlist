@@ -14,8 +14,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
             <Locations>
@@ -158,8 +158,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
             landmarkName = "drawItinerary(dest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -210,6 +210,130 @@
             endingLineNumber = "119"
             landmarkName = "launchAlert(str:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF780698-60E1-42F6-8E75-089F88AFFC4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "map/SecondSearchTableController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "map/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SearchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - 9c946ccbedc29534"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.departField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - 6f991327ac017920"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.departField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - 514d60e601ed5e31"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.departField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - dcab13cf6588105f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.departField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - 921938f2bbfc8a70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; map.SearchViewController"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "280C947A-AE80-4842-8BE8-8ADDAAFDF0F4 - ce542612c511d88c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "map.SearchViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;map.SearchViewController&gt;"
+                  moduleName = "map"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiajunwu/Desktop/ios_jiajwu72/rush01/map/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
