@@ -111,7 +111,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugX-QR-Xgw">
-                                <rect key="frame" x="50" y="403" width="109" height="30"/>
+                                <rect key="frame" x="109.5" y="666" width="195" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Search Itinerary"/>
                                 <connections>
                                     <action selector="search:" destination="kf3-qK-aq8" eventType="touchUpInside" id="cIk-w7-hmx"/>
@@ -122,15 +123,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="3SD-1A-4LY" firstAttribute="leading" secondItem="FXZ-aY-lGC" secondAttribute="leading" constant="50" id="ERr-Vw-E0z"/>
+                            <constraint firstItem="FXZ-aY-lGC" firstAttribute="bottom" secondItem="ugX-QR-Xgw" secondAttribute="bottom" constant="100" id="I0v-vp-Z5t"/>
                             <constraint firstItem="QhC-bO-Wh9" firstAttribute="top" secondItem="rsV-1K-gHL" secondAttribute="bottom" constant="63" id="X1m-oK-Ljt"/>
                             <constraint firstItem="3SD-1A-4LY" firstAttribute="top" secondItem="FXZ-aY-lGC" secondAttribute="top" constant="116" id="XnJ-mo-J7r"/>
                             <constraint firstItem="rsV-1K-gHL" firstAttribute="top" secondItem="3SD-1A-4LY" secondAttribute="bottom" constant="17.5" id="c1h-FC-vjs"/>
                             <constraint firstItem="3yG-AK-hCc" firstAttribute="top" secondItem="QhC-bO-Wh9" secondAttribute="bottom" constant="15" id="jGh-dH-PCL"/>
+                            <constraint firstItem="ugX-QR-Xgw" firstAttribute="centerX" secondItem="zge-Iu-g9l" secondAttribute="centerX" id="kiz-El-FuF"/>
                             <constraint firstItem="rsV-1K-gHL" firstAttribute="leading" secondItem="FXZ-aY-lGC" secondAttribute="leading" constant="50" id="lk7-d5-Kpn"/>
                             <constraint firstItem="QhC-bO-Wh9" firstAttribute="leading" secondItem="FXZ-aY-lGC" secondAttribute="leading" constant="50" id="nuW-KT-lWg"/>
                             <constraint firstItem="3yG-AK-hCc" firstAttribute="leading" secondItem="FXZ-aY-lGC" secondAttribute="leading" constant="50" id="v7J-2F-mxV"/>
-                            <constraint firstItem="ugX-QR-Xgw" firstAttribute="leading" secondItem="FXZ-aY-lGC" secondAttribute="leading" constant="50" id="vhV-JW-24W"/>
-                            <constraint firstItem="ugX-QR-Xgw" firstAttribute="top" secondItem="3yG-AK-hCc" secondAttribute="bottom" constant="38" id="ynC-jb-z2q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FXZ-aY-lGC"/>
                     </view>
@@ -143,7 +144,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uqO-pV-QHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="hFG-2c-edg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-378" y="173"/>
+            <point key="canvasLocation" x="-378.26086956521743" y="172.76785714285714"/>
         </scene>
     </scenes>
 </document>

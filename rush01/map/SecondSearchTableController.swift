@@ -65,7 +65,7 @@ class SecondSearchTableController: UITableViewController {
                     let long = ((((dic.value(forKey: "results") as! NSArray).object(at: 0) as! NSDictionary).value(forKey: "geometry") as! NSDictionary).object(forKey: "location") as! NSDictionary).value(forKey: "lng") as! Double
                     let desc=((dic.value(forKey: "results") as! NSArray).object(at: 0) as! NSDictionary).value(forKey: "formatted_address") as! String
                     
-                    print("bing")
+                    print(desc)
                     
                     if SecondSearchTableController.isFirst{
                         self.delegate.setFirstMarker(lat: lat, long: long, desc:desc)

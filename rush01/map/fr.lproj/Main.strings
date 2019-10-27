@@ -1,0 +1,21 @@
+/* Class = "UILabel"; text = "Depart"; ObjectID = "3SD-1A-4LY"; */
+"3SD-1A-4LY.text" = "Depart";
+
+/* Class = "UILabel"; text = "GPS"; ObjectID = "GmF-iT-faL"; */
+"GmF-iT-faL.text" = "GPS";
+
+/* Class = "UITabBarItem"; title = "Search itinerary"; ObjectID = "PXe-if-MOP"; */
+"PXe-if-MOP.title" = "Rechercher un itinaire";
+
+/* Class = "UILabel"; text = "Arrive"; ObjectID = "QhC-bO-Wh9"; */
+"QhC-bO-Wh9.text" = "Arrivé";
+
+/* Class = "UITabBarItem"; title = "MAP"; ObjectID = "TWP-Hw-bKj"; */
+"TWP-Hw-bKj.title" = "MAP";
+
+/* Class = "UIButton"; normalTitle = "Search Itinerary"; ObjectID = "ugX-QR-Xgw"; */
+"ugX-QR-Xgw.normalTitle" = "Rechercher un itinaire";
+
+/* Class = "UIButton"; normalTitle = "SEARCH"; ObjectID = "XWS-VM-Dhi"; */
+"XWS-VM-Dhi.normalTitle" = "RECHERCHE";
+

@@ -289,13 +289,16 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
         //let sourceViewController = unwindSegue.source
         print("unwind")
         if let searchView = sender.source as? SearchViewController{
-            //print(searchView.firstMarker)
-            //print(searchView.secondMarker)
-            searchView.firstMarker.map=self.mapView
-            searchView.secondMarker.map=self.mapView
-            self.drawItineraryFrom2(origin: searchView.firstMarker.position, dest: searchView.secondMarker.position)
-            let camera=GMSCameraPosition.camera(withLatitude: searchView.secondMarker.position.latitude, longitude: searchView.secondMarker.position.longitude, zoom: 10)
-            mapView.camera=camera
+            if ((searchView.firstMarker != nil) && (searchView.secondMarker != nil))
+            {
+                mapView.clear()
+                searchView.firstMarker.map=self.mapView
+                searchView.secondMarker.map=self.mapView
+                self.drawItineraryFrom2(origin: searchView.firstMarker.position, dest: searchView.secondMarker.position)
+                let camera=GMSCameraPosition.camera(withLatitude: searchView.secondMarker.position.latitude, longitude: searchView.secondMarker.position.longitude, zoom: 8)
+                mapView.camera=camera
+            }
+            
         }
         
         //print(unwindSegue.source a)

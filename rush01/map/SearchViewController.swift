@@ -81,7 +81,7 @@ class SearchViewController: UIViewController ,UITextFieldDelegate,UISearchBarDel
             print("set Seconds Marker")
             let pos=CLLocationCoordinate2D(latitude: lat, longitude: long)
             self.secondMarker=GMSMarker(position: pos)
-            self.firstMarker.title=desc
+            self.secondMarker.title=desc
             self.arriveField.text=desc
         }
     }

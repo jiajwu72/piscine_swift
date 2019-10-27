@@ -1,0 +1,6 @@
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "App a besoin de la permission de localisation";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "App a besoin de la permission de localisation";
+
