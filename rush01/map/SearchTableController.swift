@@ -71,7 +71,7 @@ class SearchTableController: UITableViewController {
                         // 4
                     self.delegate.locateWithCoord(long:long, lat: lat, text: self.res[indexPath.row])
                     //print(self.delega)
-                    //self.delegate.drawItinerary(dest: CLLocationCoordinate2D(latitude: lat, longitude: long))
+                    self.delegate.drawItinerary(dest: CLLocationCoordinate2D(latitude: lat, longitude: long))
                     print("finishDraw")
                     //print(dic.description)
                 }

@@ -35,37 +35,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3g-AF-vnh">
-                                <rect key="frame" x="0.0" y="90" width="414" height="806"/>
+                                <rect key="frame" x="0.0" y="104" width="414" height="709"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWS-VM-Dhi">
-                                <rect key="frame" x="340" y="59" width="59" height="30"/>
-                                <state key="normal" title="SEARCH"/>
-                                <connections>
-                                    <action selector="searchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdt-xR-G4I"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmF-iT-faL">
                                 <rect key="frame" x="190" y="64" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWS-VM-Dhi">
+                                <rect key="frame" x="335" y="59" width="59" height="30"/>
+                                <state key="normal" title="SEARCH"/>
+                                <connections>
+                                    <action selector="searchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdt-xR-G4I"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="53f-k1-MaD"/>
                             <constraint firstItem="GmF-iT-faL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Bap-nI-suf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XWS-VM-Dhi" secondAttribute="trailing" constant="15" id="N4e-wq-tBv"/>
-                            <constraint firstItem="XWS-VM-Dhi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="PmP-43-PAA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XWS-VM-Dhi" secondAttribute="trailing" constant="20" id="HjP-0g-RO4"/>
+                            <constraint firstItem="t3g-AF-vnh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ls7-kM-ZbQ"/>
+                            <constraint firstItem="t3g-AF-vnh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q6D-LY-gOj"/>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RXl-NR-xD2"/>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Tqb-kc-Qxm"/>
                             <constraint firstItem="GmF-iT-faL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKB-Xq-Xzy"/>
+                            <constraint firstItem="XWS-VM-Dhi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="bVD-b4-zrg"/>
+                            <constraint firstAttribute="bottom" secondItem="t3g-AF-vnh" secondAttribute="bottom" id="xik-AL-r29"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MAP" id="TWP-Hw-bKj"/>
+                    <tabBarItem key="tabBarItem" title="MAP" id="vWV-0m-Vsk"/>
                     <navigationItem key="navigationItem" id="0Uz-tU-uK2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mapContainer" destination="t3g-AF-vnh" id="Epb-PJ-Ijc"/>
                     </connections>

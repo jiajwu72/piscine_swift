@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
-//import SwiftyJSON
+
 
 class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegate,LocateOnTheMap,CLLocationManagerDelegate,GMSMapViewDelegate{
     
@@ -27,6 +27,7 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
     var placesClient: GMSPlacesClient!
     var currentPosition:CLLocationCoordinate2D!
     
+    //@IBOutlet weak var mm: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,11 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
         searchController.delegate=self
         
         //set map
-        mapView=GMSMapView(frame: mapContainer.frame)
+        
+        //mapView=GMSMapView(frame: mapContainer.frame)
+        var bound:CGRect=CGRect(x: 0, y: 100, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        mapView=GMSMapView(frame: bound)
+        
         //mapView.delegate=self
         mapView.isMyLocationEnabled = true
         mapView.settings.myLocationButton = true
