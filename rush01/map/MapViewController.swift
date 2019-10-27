@@ -133,7 +133,7 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
     
     public func drawItineraryFrom2(origin:CLLocationCoordinate2D,dest:CLLocationCoordinate2D){
         //print("draw itinerary")
-        
+        if origin != nil && dest != nil {
         DispatchQueue.main.async {
             let config = URLSessionConfiguration.default
             let session = URLSession(configuration: config)
@@ -193,12 +193,12 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
             print("finish in function draw2")
             
         }
-        
+        }
     }
     
     func drawItinerary(dest:CLLocationCoordinate2D){
         //print("draw itinerary")
-        
+        if self.currentPosition != nil && dest != nil{
         DispatchQueue.main.async {
             let config = URLSessionConfiguration.default
             let session = URLSession(configuration: config)
@@ -257,6 +257,7 @@ class MapViewController: UIViewController,UITextFieldDelegate,UISearchBarDelegat
             task.resume()
             print("finish in function draw")
             
+        }
         }
         
     }

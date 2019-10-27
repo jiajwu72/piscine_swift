@@ -51,11 +51,20 @@
                                     <action selector="searchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdt-xR-G4I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trF-nb-wL6">
+                                <rect key="frame" x="20" y="59" width="56" height="30"/>
+                                <state key="normal" title="LOCATE"/>
+                                <connections>
+                                    <action selector="locateMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Gt-de-hiK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="53f-k1-MaD"/>
+                            <constraint firstItem="trF-nb-wL6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="7Pg-iV-fFw"/>
                             <constraint firstItem="GmF-iT-faL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Bap-nI-suf"/>
+                            <constraint firstItem="trF-nb-wL6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fec-VD-a8s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XWS-VM-Dhi" secondAttribute="trailing" constant="20" id="HjP-0g-RO4"/>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ls7-kM-ZbQ"/>
                             <constraint firstItem="t3g-AF-vnh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q6D-LY-gOj"/>
